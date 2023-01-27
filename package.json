@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/nbagr/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/nbagr/frontend-project-44/actions)",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/nbagr/frontend-project-44#readme",
   "bin": {
     "brain-games": "bin/brain-games.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
