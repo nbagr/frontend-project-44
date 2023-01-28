@@ -31,6 +31,7 @@ $ brain-gcd
 ```sh
 $ brain-progression
 ```
+[![asciicast](https://asciinema.org/a/wrhd3cHq4Mbdq9JHFKwKnFCGy.svg)](https://asciinema.org/a/wrhd3cHq4Mbdq9JHFKwKnFCGy)
 
 ## For start game "Brain prime"
 ```sh
