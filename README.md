@@ -19,11 +19,13 @@ $ brain-even
 ```sh
 $ brain-calc
 ```
+[![asciicast](https://asciinema.org/a/VapGWgPEeiUT9kSd9wIGNE0Ua.svg)](https://asciinema.org/a/VapGWgPEeiUT9kSd9wIGNE0Ua)
 
 ## For start game "Brain gcd"
 ```sh
 $ brain-gcd
 ```
+[![asciicast](https://asciinema.org/a/1R6V5aXaywolbv6KP6gOLUWWP.svg)](https://asciinema.org/a/1R6V5aXaywolbv6KP6gOLUWWP)
 
 ## For start game "Brain progression"
 ```sh
