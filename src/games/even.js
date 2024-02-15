@@ -1,5 +1,5 @@
 import { getRandomNumber } from '../utils.js';
-import runGameLogic, { roundsNumber } from '../gameLogic.js';
+import runGameLogic from '../gameLogic.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
@@ -11,12 +11,4 @@ const generateRound = () => {
   return [question, correctAnswer];
 };
 
-const runEvenGame = () => {
-  const rounds = [];
-  for (let i = 0; i < roundsNumber; i += 1) {
-    rounds[i] = generateRound();
-  }
-  return runGameLogic(rounds, description);
-};
-
-export default runEvenGame;
+export default () => runGameLogic(generateRound, description);

@@ -1,5 +1,5 @@
 import { getRandomNumber } from '../utils.js';
-import runGameLogic, { roundsNumber } from '../gameLogic.js';
+import runGameLogic from '../gameLogic.js';
 
 const description = 'What is the result of the expression?';
 
@@ -31,12 +31,4 @@ const generateRound = () => {
   return [question, correctAnswer];
 };
 
-const runCalcGame = () => {
-  const rounds = [];
-  for (let i = 0; i < roundsNumber; i += 1) {
-    rounds[i] = generateRound();
-  }
-  return runGameLogic(rounds, description);
-};
-
-export default runCalcGame;
+export default () => runGameLogic(generateRound, description);
